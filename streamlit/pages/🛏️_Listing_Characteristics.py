@@ -11,8 +11,16 @@ from util import handle_env
 st.set_page_config(page_title="🛏️ Listing Characteristics", page_icon="🛏️")
 
 # Markdown for the page
-st.markdown("# 🛏️ Listing Characteristics")
-st.sidebar.header("🛏️ Listing Characteristics")
+st.markdown(
+    """
+    # 🛏️ Listing Characteristics
+    
+    In this analysis we aim to answer the following two questions:
+    
+    1. How does Airbnb type (room type) affect the average price of a listing?
+    2. Availability of which amenity has the highest impact on price and what is the average price of an Airbnb with that amenity?
+    """
+)
 
 # Set up environment and database connection
 handle_env()
