@@ -14,7 +14,13 @@ st.sidebar.success("☝️ Select an analysis theme above to explore.")
 st.markdown(
 """
 # 🌎 Data Management Final Project - Chicago Airbnb Market Analysis 📊
+"""
+)
 
+st.image("https://miro.medium.com/v2/resize:fit:1358/0*NChTo-XqLOxLabIW")
+
+st.markdown(
+"""
 ## Project Selection & Motivations
 
 Welcome to our comprehensive analysis of the Airbnb market in Chicago. This project was chosen due to the dynamic and diverse nature of the Chicago Airbnb landscape, which presents a unique opportunity to explore various aspects of urban hospitality and economics. Chicago, known for its rich cultural heritage and vibrant neighborhoods, offers a plethora of data that can yield insights into both the short-term rental market and the city's socioeconomic dynamics.
