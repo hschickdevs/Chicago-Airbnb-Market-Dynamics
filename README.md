@@ -84,4 +84,4 @@ crime reports in Chicago as a whole?
 * How does Airbnb type (room type) affect the average price of a listing? (Suhas's code)
 * Availability of which amenity has the highest impact on price and what is the average price of an Airbnb with that amenity? (Suhas's code)
 #### Tab 6: Host Experience and Pricing 🌟
-* Relationship between a host's experience (days/duration) on the platform vs average price of listings (Suhas's code
+* Relationship between a host's experience (days/duration) on the platform vs average price of listings (Suhas's code)

@@ -171,6 +171,7 @@ review_start_date, review_end_date = st.sidebar.date_input(
     min_value=reviews_df['DATE'].min(),
     max_value=reviews_df['DATE'].max()
 )
+st.sidebar.success("☝️ Select a date range for listings and reviews.")
 
 # Convert start_date and end_date to pandas datetime
 review_start_date = pd.to_datetime(review_start_date)
