@@ -75,7 +75,7 @@ def set_chart_title(fig, title):
 
 
 # Get data
-q2_df = snowflake_cxn.query_2()
+q2_df = snowflake_cxn.srishti_query_2()
 
 # Define custom bins for the number of listings
 bins = [0, 1, 5, 10, 20, 50, 100, 650]
@@ -127,7 +127,7 @@ st.markdown(
     """
 )
 
-q3_df = snowflake_cxn.query_3()
+q3_df = snowflake_cxn.srishti_query_3()
 st.table(q3_df)
 
 # Create a new column to represent the combination of profile pic and superhost status
@@ -182,7 +182,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("Given these insights, let's now visualize how superhost status affects the number of monthly reviews a host receives.")
 
-q6_df = snowflake_cxn.query_6()
+q6_df = snowflake_cxn.srishti_query_6()
 
 # Create histograms for superhosts and non-superhosts
 fig = go.Figure()

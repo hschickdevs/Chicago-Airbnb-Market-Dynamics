@@ -4,3 +4,7 @@ python-dotenv
 plotly
 pandas
 seaborn
+folium
+shapely
+geopandas
+streamlit-folium

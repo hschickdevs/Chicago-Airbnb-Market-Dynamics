@@ -51,6 +51,19 @@ class SnowflakeConnector:
         """
         return pd.read_sql(query, self.connection)
     
+    def retrieve_community_data(self) -> pd.DataFrame:
+        query = """
+            SELECT communities.COMMUNITY_ID, NAME, GEOMETRY, CRIME_RATE, avg_price
+            FROM communities INNER JOIN 
+                                    (SELECT COMMUNITY_ID, ROUND(AVG(price),1) AS avg_price
+                                    FROM listings
+                                    GROUP BY COMMUNITY_ID
+                                    ) AS subquery
+                                    ON communities.COMMUNITY_ID = subquery.COMMUNITY_ID
+        """
+        return pd.read_sql(query, self.connection)
+
+    
     # ---------------------------- UNNAMED ---------------------------- #
     # Queries from Sristi's analysis
     
