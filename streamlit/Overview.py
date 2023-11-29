@@ -81,3 +81,5 @@ st.markdown(
     To complete loading, we then loaded any CSV files that were broken into chunks into their corresponding tables, the Snowflake Console Wizard was able to resolve any row and column header conflicts for us.
     """
 )
+
+st.image("https://drive.google.com/uc?export=view&id=1hhI7bCGNpDuOr9DdfbnQM9H6iPZYkHN2", caption="Snowflake Data Import")
