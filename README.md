@@ -71,6 +71,8 @@ crime reports in Chicago as a whole?
 * Distribution of hosts by number of listings (Srishti's code)
 * How many hosts have a profile pic and/or are a superhost (Srishti's code)
 * Is a host being a superhost correlated with more monthly reviews? (Srishti's code)
+
+ADDED -> * Relationship between a host's experience (days/duration) on the platform vs average price of listings (Suhas's code)
 #### Tab 3: Neighborhood Analysis 🏘️
 * Top 15 Chicago neighborhoods by average Airbnb rental cost (Suhas's code)
 * Bottom 15 Chicago neighborhoods by average Airbnb rental cost (Suhas's code)
@@ -83,5 +85,3 @@ crime reports in Chicago as a whole?
 #### Tab 5: Listing Characteristics 🛏️
 * How does Airbnb type (room type) affect the average price of a listing? (Suhas's code)
 * Availability of which amenity has the highest impact on price and what is the average price of an Airbnb with that amenity? (Suhas's code)
-#### Tab 6: Host Experience and Pricing 🌟
-* Relationship between a host's experience (days/duration) on the platform vs average price of listings (Suhas's code)
