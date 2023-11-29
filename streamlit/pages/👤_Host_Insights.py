@@ -2,6 +2,7 @@
 Distribution of hosts by number of listings (Srishti's code)
 How many hosts have a profile pic and/or are a superhost (Srishti's code)
 Is a host being a superhost correlated with more monthly reviews? (Srishti's code)
+Relationship between a host's experience (days/duration) on the platform vs average price of listings (Suhas's code)
 """
 import streamlit as st
 import pandas as pd
@@ -234,5 +235,63 @@ st.markdown(
         - **For hosts:** The data suggests that maintaining superhost status does not necessarily equate to a higher number of reviews per month. Focus on consistent quality service may be more beneficial than solely aiming for a higher quantity of reviews.
         - **For guests:** When choosing hosts, the presence of a superhost badge indicates quality but not necessarily frequency of reviews, which could be due to various factors such as new listings or off-peak seasons.
 
+    """
+)
+
+st.markdown("## 3️⃣ Investigate Relationship Between Host Experience vs. Average Price of Listings")
+st.markdown(
+    """
+    The investigation is centered on understanding how a host's duration or experience on the rental platform correlates with the average price of their listings. It aims to determine whether there is a relationship between how long a host has been using the platform and the pricing strategy they employ for their rental properties.
+    """
+)
+
+q6_df = snowflake_cxn.suhas_query_6()
+
+# Interactive slider for the number of bins
+number_of_bins = st.slider('Select number of bins', min_value=3, max_value=10, value=6, step=1)
+
+# Dynamically create bins based on the slider
+max_days = max(q6_df['DAYS_AS_HOST'])
+bins = pd.cut(q6_df['DAYS_AS_HOST'], bins=np.linspace(0, max_days, num=number_of_bins))
+
+# Group by the created bins
+df_binned = q6_df.groupby(bins)['AVERAGE_PRICE'].mean().reset_index()
+
+# Set the aesthetic style of the plots
+sns.set_theme(style="ticks")
+
+# Create a bar plot with aesthetic coloring
+plt.figure(figsize=(15, 8))
+ax = sns.barplot(data=df_binned, x='DAYS_AS_HOST', y='AVERAGE_PRICE', palette='cool')
+
+# Rotate X-axis labels for better readability
+plt.xticks(rotation=45)
+
+# Set titles and labels
+plt.title('Average Price by Host Experience')
+plt.xlabel('Host Experience (Days)')
+plt.ylabel('Average Price ($)')
+
+# Annotate the average price above each bar
+for p in ax.patches:
+    ax.annotate(f'${p.get_height():.2f}', 
+                (p.get_x() + p.get_width() / 2., p.get_height()),
+                ha='center', va='center', 
+                xytext=(0, 9), 
+                textcoords='offset points')
+
+# Display the plot in Streamlit
+st.pyplot(plt)
+
+st.markdown(
+    """
+    ### Insights
+
+    - **Trend Observation:** 
+        - ?
+
+    - **Implications for Hosts/Guests:** 
+        - **For hosts:** ?
+        - **For guests:** ?
     """
 )
