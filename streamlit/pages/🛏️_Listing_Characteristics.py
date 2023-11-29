@@ -64,17 +64,17 @@ for p in ax.patches:
 # Use Streamlit to display the plot
 st.pyplot(plt)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - ?
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - ?
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** ?
-        - **For guests:** ?
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** ?
+#         - **For guests:** ?
+#     """
+# )
 
 # ------------------------ ANALYIS 2 - Availability of amenity impact on price, and what is the average price of an Airbnb with that amenity ------------------------ #
 
@@ -132,14 +132,14 @@ plt.tight_layout()
 # Display the plot in Streamlit
 st.pyplot(fig)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - ?
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - ?
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** ?
-        - **For guests:** ?
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** ?
+#         - **For guests:** ?
+#     """
+# )

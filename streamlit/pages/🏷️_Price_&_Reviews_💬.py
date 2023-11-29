@@ -85,19 +85,19 @@ plt.ylabel('Average Reviews')
 # Use Streamlit to display the plot
 st.pyplot(plt)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - There is no clear linear trend between average price and the number of reviews, indicating that price may not be a determining factor in the quantity of reviews a listing receives.
-        - Most listings are priced under $200 and have a varying number of reviews, with a high density of points in the lower price and review count range.
-        - Listings with higher prices do not consistently have more reviews, suggesting that guests do not necessarily review more expensive listings more often.
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - There is no clear linear trend between average price and the number of reviews, indicating that price may not be a determining factor in the quantity of reviews a listing receives.
+#         - Most listings are priced under $200 and have a varying number of reviews, with a high density of points in the lower price and review count range.
+#         - Listings with higher prices do not consistently have more reviews, suggesting that guests do not necessarily review more expensive listings more often.
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** Understanding that pricing strategy may not affect the likelihood or number of reviews, hosts might consider focusing on other aspects such as guest experience or additional amenities to improve the attractiveness of their listings.
-        - **For guests:** The data suggests that there is a wide range of options available at lower price points with varying levels of feedback, which may assist in making informed decisions based on personal budget and the importance of reviews.
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** Understanding that pricing strategy may not affect the likelihood or number of reviews, hosts might consider focusing on other aspects such as guest experience or additional amenities to improve the attractiveness of their listings.
+#         - **For guests:** The data suggests that there is a wide range of options available at lower price points with varying levels of feedback, which may assist in making informed decisions based on personal budget and the importance of reviews.
+#     """
+# )
 
 
 # ------------------------ ANALYIS 2 - AVERAGE PRICE VS ASPECTS OF EVALUATION ------------------------ #
@@ -212,16 +212,16 @@ ax.set_ylabel('Average Location Rating')
 # Display the plot in Streamlit
 st.pyplot(fig)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - ?
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - ?
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** ?
-        - **For guests:** ?
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** ?
+#         - **For guests:** ?
+#     """
+# )
 
 

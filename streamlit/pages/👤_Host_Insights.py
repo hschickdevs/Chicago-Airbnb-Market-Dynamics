@@ -103,19 +103,19 @@ fig.update_traces(textinfo='percent+label', pull=[0.1 if i == binned_hosts['HOST
 # Display the figure in Streamlit
 st.plotly_chart(fig, use_container_width=True)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - Majority of Airbnb hosts have between 1 to 5 listings, suggesting a market dominated by individuals or small-scale operators rather than large property managers.
-        - Hosts with a high number of listings (50-800) are significantly fewer.
-        - There is only one host with 100+ listings, which is an outlier in the data.
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - Majority of Airbnb hosts have between 1 to 5 listings, suggesting a market dominated by individuals or small-scale operators rather than large property managers.
+#         - Hosts with a high number of listings (50-800) are significantly fewer.
+#         - There is only one host with 100+ listings, which is an outlier in the data.
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** The predominance of hosts with fewer listings suggests that new entrants to the Airbnb hosting market can compete effectively without the need for multiple properties. The focus for these hosts should be on quality and guest experience to stand out.
-        - **For guests:** Guests are likely to encounter a more personalized service and unique listings, as the market is not saturated with mass-managed properties. There may also be a higher chance of dealing directly with property owners, which can lead to better communication and a more personal touch during their stay.
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** The predominance of hosts with fewer listings suggests that new entrants to the Airbnb hosting market can compete effectively without the need for multiple properties. The focus for these hosts should be on quality and guest experience to stand out.
+#         - **For guests:** Guests are likely to encounter a more personalized service and unique listings, as the market is not saturated with mass-managed properties. There may also be a higher chance of dealing directly with property owners, which can lead to better communication and a more personal touch during their stay.
+#     """
+# )
 
 # ------------------------ ANALYIS 2 - How many hosts have a profile pic and/or are a superhost ------------------------ #
 
@@ -222,21 +222,21 @@ fig.update_layout(
 # Display the figure in Streamlit
 st.plotly_chart(fig, use_container_width=True)
 
-st.markdown(
-    """
-    ### Insights
+# st.markdown(
+#     """
+#     ### Insights
 
-    - **Trend Observation:** 
-        - The distribution of average reviews per month for both superhosts and non-superhosts is right-skewed, with a higher concentration of hosts receiving fewer reviews.
-        - Superhosts show a prominent peak at lower review counts, suggesting that even highly rated hosts may have months with fewer reviews.
-        - The long tail for both groups indicates that very high review counts per month are less common.
+#     - **Trend Observation:** 
+#         - The distribution of average reviews per month for both superhosts and non-superhosts is right-skewed, with a higher concentration of hosts receiving fewer reviews.
+#         - Superhosts show a prominent peak at lower review counts, suggesting that even highly rated hosts may have months with fewer reviews.
+#         - The long tail for both groups indicates that very high review counts per month are less common.
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** The data suggests that maintaining superhost status does not necessarily equate to a higher number of reviews per month. Focus on consistent quality service may be more beneficial than solely aiming for a higher quantity of reviews.
-        - **For guests:** When choosing hosts, the presence of a superhost badge indicates quality but not necessarily frequency of reviews, which could be due to various factors such as new listings or off-peak seasons.
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** The data suggests that maintaining superhost status does not necessarily equate to a higher number of reviews per month. Focus on consistent quality service may be more beneficial than solely aiming for a higher quantity of reviews.
+#         - **For guests:** When choosing hosts, the presence of a superhost badge indicates quality but not necessarily frequency of reviews, which could be due to various factors such as new listings or off-peak seasons.
 
-    """
-)
+#     """
+# )
 
 st.markdown("## 3️⃣ Investigate Relationship Between Host Experience vs. Average Price of Listings")
 st.markdown(
@@ -283,15 +283,15 @@ for p in ax.patches:
 # Display the plot in Streamlit
 st.pyplot(plt)
 
-st.markdown(
-    """
-    ### Insights
+# st.markdown(
+#     """
+#     ### Insights
 
-    - **Trend Observation:** 
-        - ?
+#     - **Trend Observation:** 
+#         - ?
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** ?
-        - **For guests:** ?
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** ?
+#         - **For guests:** ?
+#     """
+# )

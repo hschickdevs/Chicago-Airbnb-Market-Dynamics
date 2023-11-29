@@ -137,18 +137,18 @@ weekday_fig = px.bar(
 weekday_fig = set_chart_title(weekday_fig, "Average Listing Price by Weekday")
 st.plotly_chart(weekday_fig)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - The data indicates a steady increase in average listing prices since September 2023. This upward trend may reflect a growing demand for Airbnb accommodations in Chicago, potentially influenced by factors such as seasonal visitor influx, local events, or a general rise in the popularity of short-term rentals in the city.
-        - Analysis of the average listing prices by weekday reveals that the highest prices are typically observed from Friday to Sunday. This pattern suggests a higher demand for accommodations during the weekends, possibly due to an influx of weekend travelers, tourists, or local residents seeking leisure stays.
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - The data indicates a steady increase in average listing prices since September 2023. This upward trend may reflect a growing demand for Airbnb accommodations in Chicago, potentially influenced by factors such as seasonal visitor influx, local events, or a general rise in the popularity of short-term rentals in the city.
+#         - Analysis of the average listing prices by weekday reveals that the highest prices are typically observed from Friday to Sunday. This pattern suggests a higher demand for accommodations during the weekends, possibly due to an influx of weekend travelers, tourists, or local residents seeking leisure stays.
 
-    - **Implications for Hosts/Guests:** 
-        - For hosts: The observed trends indicate an opportunity to optimize pricing strategies. Considering the steady increase in prices, hosts might consider adjusting their rates upward, particularly in anticipation of high-demand periods. Additionally, the premium pricing on weekends could be leveraged to maximize revenue, while still maintaining competitive pricing during weekdays to attract guests.
-        - For guests: Those seeking value-for-money stays might find better deals by booking on weekdays, as the data shows a significant price drop compared to weekends. Planning trips outside peak seasons could also be more economical, considering the overall rising trend in prices since September 2023.
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - For hosts: The observed trends indicate an opportunity to optimize pricing strategies. Considering the steady increase in prices, hosts might consider adjusting their rates upward, particularly in anticipation of high-demand periods. Additionally, the premium pricing on weekends could be leveraged to maximize revenue, while still maintaining competitive pricing during weekdays to attract guests.
+#         - For guests: Those seeking value-for-money stays might find better deals by booking on weekdays, as the data shows a significant price drop compared to weekends. Planning trips outside peak seasons could also be more economical, considering the overall rising trend in prices since September 2023.
+#     """
+# )
 
 
 # ------------------------ ANALYIS 2 - Time series analysis of the frequency of reviews for the listing ------------------------ #
@@ -212,18 +212,18 @@ review_weekday_fig = px.bar(
 review_weekday_fig = set_chart_title(review_weekday_fig, "Average Review Frequency by Weekday")
 st.plotly_chart(review_weekday_fig)
 
-st.markdown("### Insights")
-st.markdown(
-    """
-    - **Trend Observation:** 
-        - From September 2022 to March 2023, the review frequency remained relatively stable, indicating a consistent level of guest activity and market engagement during this period. Post-March 2023, there has been a notable increase in review frequency, suggesting a surge in guest interactions, possibly due to seasonal factors, increased travel, or growing popularity of Airbnb listings in Chicago.
-        - A significant peak in reviews is observed on Sundays and Mondays, with the frequency more than doubling compared to other days of the week. This pattern might be indicative of guests concluding their stays and leaving reviews at the end of weekends or early in the week.
+# st.markdown("### Insights")
+# st.markdown(
+#     """
+#     - **Trend Observation:** 
+#         - From September 2022 to March 2023, the review frequency remained relatively stable, indicating a consistent level of guest activity and market engagement during this period. Post-March 2023, there has been a notable increase in review frequency, suggesting a surge in guest interactions, possibly due to seasonal factors, increased travel, or growing popularity of Airbnb listings in Chicago.
+#         - A significant peak in reviews is observed on Sundays and Mondays, with the frequency more than doubling compared to other days of the week. This pattern might be indicative of guests concluding their stays and leaving reviews at the end of weekends or early in the week.
 
-    - **Implications for Market Dynamics:** 
-        - The increased review frequency, especially on Sundays and Mondays, highlights these days as key points for guest feedback and interaction. This trend could be leveraged by hosts for targeted marketing and improving guest experiences during and post-stay.
-        - For guests and hosts alike, understanding these patterns can aid in predicting busier times in the Airbnb market, potentially influencing booking decisions and pricing strategies.
-    """
-)
+#     - **Implications for Market Dynamics:** 
+#         - The increased review frequency, especially on Sundays and Mondays, highlights these days as key points for guest feedback and interaction. This trend could be leveraged by hosts for targeted marketing and improving guest experiences during and post-stay.
+#         - For guests and hosts alike, understanding these patterns can aid in predicting busier times in the Airbnb market, potentially influencing booking decisions and pricing strategies.
+#     """
+# )
 
 # Button to re-run the app (optional)
 st.button("Re-run")

@@ -106,18 +106,18 @@ plt.tight_layout()  # Adjust the layout
 # Display the plot in Streamlit
 st.pyplot(plt)
 
-st.markdown(
-    """
-    ### Insights
+# st.markdown(
+#     """
+#     ### Insights
 
-    - **Trend Observation:** 
-        - ?
+#     - **Trend Observation:** 
+#         - ?
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** ?
-        - **For guests:** ?
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** ?
+#         - **For guests:** ?
+#     """
+# )
 
 # ------------------------ ANALYIS 2 - Top & Bottom Chicago Neighborhoods ------------------------ #
 
@@ -185,15 +185,15 @@ def create_folium_map(df):
 st_folium_map = create_folium_map(df)
 folium_static(st_folium_map)
 
-st.markdown(
-    """
-    ### Insights
+# st.markdown(
+#     """
+#     ### Insights
 
-    - **Trend Observation:** 
-        - ?
+#     - **Trend Observation:** 
+#         - ?
 
-    - **Implications for Hosts/Guests:** 
-        - **For hosts:** ?
-        - **For guests:** ?
-    """
-)
+#     - **Implications for Hosts/Guests:** 
+#         - **For hosts:** ?
+#         - **For guests:** ?
+#     """
+# )
