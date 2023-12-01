@@ -117,6 +117,23 @@ st.markdown("""
    Snowflake allowed us to not worry too much about the loading process of our data since the Snowflake Console Wizard has the ability to automatically detect the schema of our tables we uploaded, there was limited manual work for us.
 
    The only specific requirements of Snowflake was that we needed to have tables with clean dataimported, we chose CSVs. Moreover, the requirement was that CSVs uploaded were limited to a file size of 50MB per upload.
-  """
-)
+  """)
+            
+st.markdown("""
+   # Real-life Impact
+   ## Neighborhood Analysis
+   Understanding the relationship between geography-based pricing and crime rates for Airbnb listings is essential for hosts and guests. Hosts can optimize pricing and target marketing based on neighborhood safety, while guests can make informed decisions about safety and value. This knowledge also impacts investment choices, community engagement, and overall profitability and reputation of Airbnb properties.
+
+   ## Price and Reviews
+   The data suggests that Airbnb guests are inclined to pay more for better-located properties, as indicated by the positive correlation between price and location ratings. Cleanliness is consistently high across various price points, showing it's a standard expectation for guests. The number of reviews does not correlate strongly with price, implying other factors motivate guests to leave feedback. Additionally, the overall satisfaction is not strictly tied to price, with similar ratings across a broad price range. This indicates that guests weigh multiple factors, including location and cleanliness, more heavily than price in their overall assessment of an Airbnb experience.
+
+   ## Host Dynamics
+   Airbnb comprises hosts with fewer than 5 listings, highlighting the platform's individual and small-scale host focus. Superhost status correlates with more reviews, suggesting higher guest satisfaction and increased bookings. There's only a slight price increase with host experience, indicating other factors might be more influential in pricing. Guests seem to value Superhost status, implying a willingness to pay more for assured quality. Both hosts and guests should note the importance of reputation and perceived service quality on the platform.
+
+   ## Market Dynamics
+   The time series data on Airbnb listing prices and review frequencies indicate cyclical trends, likely tied to seasonal demand and weekly patterns, with higher prices and review volumes around weekends. Hosts can optimize earnings by adjusting rates in response to these trends, potentially increasing prices during peak demand. Review patterns suggest that guests actively leave feedback at the week's start and end, which could inform hosts when to encourage reviews. Understanding these temporal patterns can help hosts plan for high-demand periods and set dynamic pricing, while guests could book during dips for better deals. Overall, strategic timing based on these insights could benefit hosts' profitability and guests' cost savings.
+
+   ## Listing Characteristics
+   The data shows that Airbnb listings offering entire homes or apartments charge the highest prices, with a clear price gradient down to shared rooms. Amenities significantly influence pricing, with pools notably increasing listing prices. Hosts can optimize their earnings by offering sought-after amenities and considering the type of room they list. Guests should expect to pay more for privacy and premium features like pools. Both hosts and guests must consider these factors in the context of value for money and competitive pricing.
+""")
 
