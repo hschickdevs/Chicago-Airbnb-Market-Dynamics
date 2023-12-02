@@ -41,8 +41,6 @@ st.markdown(
     * **Availability and Reviews:** Calendar availability, number of reviews, recent reviews, and review scores across various dimensions.
     * **Licensing and Booking:** Licensing information, if instant booking is available, and counts of host listings in various categories.
     * **Miscellaneous:** The average number of reviews per month, encoded categorical variables for analysis, community names, and IDs.
-
-    > **Note:** An Airbnb Superhost is a designation given by Airbnb to hosts who meet certain exceptional criteria set by Airbnb, usually including maintaining a high overall rating (typically 4.8 or higher), having a low cancellation rate, a high response rate, and a certain number of stays or nights booked through the platform.
     """
 )
 
@@ -124,6 +122,8 @@ st.markdown("## 2️⃣ Determine if Superhost Status is Associated with More Mo
 st.markdown(
     """
     Here we aim to answer the question: **How many hosts have a profile pic and/or are a superhost?**
+    
+    > 💡 **Note:** An Airbnb Superhost is a designation given by Airbnb to hosts who meet certain exceptional criteria set by Airbnb, usually including maintaining a high overall rating (typically 4.8 or higher), having a low cancellation rate, a high response rate, and a certain number of stays or nights booked through the platform.
     
     First, we will look at the distribution of hosts by whether they have a profile picture and/or whether they are a superhost:
     """
