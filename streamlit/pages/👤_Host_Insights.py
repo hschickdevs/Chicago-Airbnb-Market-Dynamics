@@ -42,6 +42,7 @@ st.markdown(
     * **Licensing and Booking:** Licensing information, if instant booking is available, and counts of host listings in various categories.
     * **Miscellaneous:** The average number of reviews per month, encoded categorical variables for analysis, community names, and IDs.
 
+    > **Note:** An Airbnb Superhost is a designation given by Airbnb to hosts who meet certain exceptional criteria set by Airbnb, usually including maintaining a high overall rating (typically 4.8 or higher), having a low cancellation rate, a high response rate, and a certain number of stays or nights booked through the platform.
     """
 )
 
