@@ -67,8 +67,8 @@ The largest challenge we faced from getting acquiring the data was loading the c
 """
 )
 
-st.image("https://drive.google.com/uc?export=view&id=1vaXGXW-6aqXb-hlHTQEFQfcaPrIS7wCs")
-st.image("https://drive.google.com/uc?export=view&id=13yjSbRyCM4c70JmTnlLkPCGsur-JM5eH")
+st.image("https://drive.google.com/uc?export=view&id=16Tm2h1oRQ_Ug_bcpiAfnZrDpgh903U0h")
+st.image("https://drive.google.com/uc?export=view&id=17BhfI-VJ7UTP8itunPIbfsBNHGpE1dtG")
 st.image("https://drive.google.com/uc?export=view&id=14LE_tnSKHNl5knflnPeV_-TgKHEKNqca")
 st.image("https://drive.google.com/uc?export=view&id=1n6A46KB2hXGSt9AykqHWozDQlXNy5U6q")
 st.image("https://drive.google.com/uc?export=view&id=1zfKZYPrVtE-j7ksvTsxIGbjeM4pJawiI")
