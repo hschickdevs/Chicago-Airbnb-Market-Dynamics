@@ -33,7 +33,7 @@ st.markdown(
     In this analysis we aim to answer the following two questions:
     
     * What are the top & bottom 15 Chicago neighborhoods by average Airbnb rental cost?
-    * Are listing prices positively or negatively correlated with changes in the amount of crime reports in Chicago as a whole? (Poon's code)
+    * Are listing prices positively or negatively correlated with changes in the amount of crime reports in Chicago as a whole?
     """
 )
 
