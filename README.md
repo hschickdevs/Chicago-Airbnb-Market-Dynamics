@@ -4,7 +4,7 @@
 
 > 📊 Please see our analysis at [**🔗https://airbnb-analysis.streamlit.app/**](https://airbnb-analysis.streamlit.app/)
 
-This repository contains the code for the final project of our UT Austin MSITM Data Management course. The goal of this project is to analyze Airbnb market dynamics in Chicago. We chose Chicago because it is an extremely diverse city that  has a rich history with multiple communities. Since Chicago is also a destination city in the US we wanted to analyze the AirBNBs in Chicago.
+This repository contains the code for the final project of our UT Austin MSITM Data Management course. The goal of this project was to analyze Airbnb market dynamics in Chicago, and create an interactive data app using Streamlit. We chose Chicago because it is an extremely diverse city that  has a rich history with multiple communities. Since Chicago is also a destination city in the US we wanted to analyze the AirBNBs in Chicago.
 
 Our analysis investigates the following topics:
 
