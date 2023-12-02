@@ -23,6 +23,14 @@ st.markdown(
 """
 > 👈📊 _**Please see the page selection on the left-hand navbar for our analysis results.**_
 
+## Group Members
+
+- **William Dang** - [LinkedIn](https://www.linkedin.com/in/williampdang/)
+- **Harrison Schick** - [LinkedIn](https://www.linkedin.com/in/harrison-schick/)
+- **Poonnawit Suwatanapongched** - [LinkedIn](https://www.linkedin.com/in/poonnawit-s/)
+- **Suhas Yogish** - [LinkedIn](https://www.linkedin.com/in/suhasy/)
+- **Srishti Gupta** - [LinkedIn](https://www.linkedin.com/in/srishti-gupta-ut/)
+
 ## Project Selection & Motivations
 
 Welcome to our comprehensive analysis of the Airbnb market in Chicago. This project was chosen due to the dynamic and diverse nature of the Chicago Airbnb landscape, which presents a unique opportunity to explore various aspects of urban hospitality and economics. Chicago, known for its rich cultural heritage and vibrant neighborhoods, offers a plethora of data that can yield insights into both the short-term rental market and the city's socioeconomic dynamics.
